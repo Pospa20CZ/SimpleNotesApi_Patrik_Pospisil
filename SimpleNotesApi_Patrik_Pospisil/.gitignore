@@ -1,0 +1,38 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Dotnet Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+
+# Others
+*.log
+*.vsmdi
+*.vssscc
+*.cache
+*.pdb
+*.mdb
+
+# Ignore secrets and user-specific files
+*.secret.json
+*.user
+
+# SQLite database file (pokud ji nechceš verzovat)
+*.db
